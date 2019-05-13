@@ -1,0 +1,20 @@
+{
+    "name": "itzcy/alipay-sdk",
+    "description": "支付宝工具包",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "itzcy",
+            "email": "itzcy@itzcy.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "alipay\\": "src/"
+        }
+    },
+    "require": {
+        "php" : "^5.5"
+    }
+}
