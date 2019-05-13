@@ -1,12 +1,12 @@
 <?php
-use alipay\pay\Request;
+use alipay\Request\Pay;
 
 require_once(dirname(__DIR__) . "/vendor/autoload.php");
 
-$pay = new Request();
+$pay = new Pay();
 
 
-if ($pay instanceof Request) {
+if ($pay instanceof Pay) {
     var_dump(true);
-    return true;
+   $pay -> request();
 }

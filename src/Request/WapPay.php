@@ -8,3 +8,12 @@
  * @version 0.0.1
  * @link https://github.com/itzcy/alipay-sdk
  */
+
+namespace alipay\Request;
+
+use alipay\Core\ApiBase;
+
+class WayPay extends ApiBase
+{
+    protected $method = "alipay.trade.wap.pay"; // 接口名称
+}
