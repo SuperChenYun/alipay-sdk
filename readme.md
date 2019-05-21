@@ -1,6 +1,7 @@
 # 支付宝SDK
 > http://github.com/itzcy/alipay-sdk.git
 
+[![Build Status](https://travis-ci.org/itzcy/alipay-sdk.svg?branch=develop)](https://travis-ci.org/itzcy/alipay-sdk)
 ## 使用Demo
 ```php
 <?php
