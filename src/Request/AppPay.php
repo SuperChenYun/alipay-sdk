@@ -16,4 +16,6 @@ use alipay\Core\ApiBase;
 class AppPay extends ApiBase
 {
     protected $method = "alipay.trade.app.pay"; // 接口名称
+
+    
 }

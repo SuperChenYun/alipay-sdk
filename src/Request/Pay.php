@@ -12,6 +12,7 @@
 namespace alipay\Request;
 
 use alipay\Core\ApiBase;
+use alipay\Core\Response;
 
 class Pay extends ApiBase
 {
